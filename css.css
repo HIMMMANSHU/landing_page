@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+#main{
+   width: 100%;
+   height: 100vh;
+   
+}
+#back{
+    width: 100%;
+    height: 100vh;   
+ }
+#back img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+ #top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    
+ }   
+ #workingarea{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    max-width: 80%;
+    position: relative;
+
+
+ }
+ #nav{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 100%;
+    /* padding:40px 0 ; */
+    padding-bottom: 5px;
+    padding-top: 40px;
+ }
+ #nav img{
+    height: 60px;
+
+ }
+ #navleft , #navright {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+ }
+ #nav a{
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700; 
+    color: #fff;
+   
+ }
+ #hero{
+    position: absolute;
+    top: 50%; 
+    left: 0;     
+    transform: translate(0,-50%);
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+  
+    
+ }
+ #heroleft{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-width: 50%;
+    
+    
+    
+ }
+ #heroleft #elem{
+    position: relative;
+    height: 9vw;
+    overflow: hidden;
+    
+
+ }
+ #heroleft #elem h1:nth-child(1){
+    top: 0;
+ }
+
+#heroleft #elem h1 {
+    position: absolute;
+    /* aur class selector se select krrrha hai */
+    top: 100%;
+    left: 0;
+    line-height: .9;
+    font-weight: 600;
+    font-family: "kajiro";
+    color: #fff;
+    font-weight: 100;
+    font-size: 11vw;
+   
+ }
+ #heroleft button {
+    pointer-events: all;
+    padding: .8vw 3vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: "kajiro";
+
+ }
+
+
+ #heroright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 17%;
+    margin-top: 30px;
+   
+    color: #fff;
+ }
+
+ /* ye font install kraya tha isne to vo install nhi hua  */
+ #heroright p {
+   
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+
+ }
+ #heroright #imagediv{
+    width: 100%;
+    height: 170px; 
+    margin-top: 200px;
+    margin-bottom: 40px; 
+  
+
+   background-image:url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80) ;
+   background-size: cover;
+   background-position:center ;
+ }
+ #heroright p:nth-child(3) {
+    margin-bottom: 30px;
+    
+ }
